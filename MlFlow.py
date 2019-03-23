@@ -4,6 +4,7 @@
 import mlflow
 import os
 import sys
+import mlflow.sklearn
 
 if __name__ == "__main__":
     a=int(sys.argv[1])
