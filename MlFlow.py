@@ -13,6 +13,8 @@ if __name__ == "__main__":
     c=a*b
     print("Multiplication :"+str(c))
     mlflow.log_metric("mutiplication",c)
+    mlflow.sklearn.log_model(c, "model")
+
 
 
 
