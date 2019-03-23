@@ -1,0 +1,14 @@
+artifact_uri: /Users/rohitjain/Documents/MLPresentation/BasicExampleMLFlow/mlruns/0/324985a9f9a84d39898923d3f3428144/artifacts
+end_time: 1553327730951
+entry_point_name: ''
+experiment_id: 0
+lifecycle_stage: active
+name: ''
+run_uuid: 324985a9f9a84d39898923d3f3428144
+source_name: MLFlow.py
+source_type: 4
+source_version: ''
+start_time: 1553327730902
+status: 3
+tags: []
+user_id: rohitjain
