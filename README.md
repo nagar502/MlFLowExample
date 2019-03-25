@@ -1,7 +1,7 @@
 # MlFLowExample
 Running a Basic MLFlow project Having Multiplication of 2 Numbers
 
- 1. Install mlflow using following comman
+ 1. Install mlflow using following common
     pip install mlflow
     
  2. Run this project using following command: (Default values are 5 and 6)
