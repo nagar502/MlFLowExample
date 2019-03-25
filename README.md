@@ -4,10 +4,10 @@ Running a Basic MLFlow project Having Multiplication of 2 Numbers
  1. Install mlflow using following common
     pip install mlflow
     
- 2. Run this project using following command: (Default values are 5 and 6)
-  mlflow run https://github.com/jain-roh/MlFLowExample.git
+ 2. Run this project using following command on terminal: (Default values are 5 and 6) 
+    mlflow run https://github.com/jain-roh/MlFLowExample.git
  
- 3. To pass the values we can sun the project using the following command
+ 3. To pass the values we can run the project using the following command
     mlflow run https://github.com/jain-roh/MlFLowExample.git -P a=8 -P b=6
  
  4. Run the following command to run mloflow User Interface
