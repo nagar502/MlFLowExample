@@ -7,4 +7,4 @@ entry_points:
     parameters:
       a: {type: int, default: 5}
       b: {type: int, default: 6}
-    command: "python mlflow.py {a} {b}"
+    command: "#!/usr/bin/env python mlflow.py {a} {b}"
