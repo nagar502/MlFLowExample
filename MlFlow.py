@@ -13,7 +13,7 @@ if __name__ == "__main__":
     c=a*b
     print("Multiplication :"+str(c))
     cwd = os.getcwd()    
-    plt.plot(5, 10,'go--', linewidth=2, markersize=12)
+    plt.plot(a, b,'go--', linewidth=2, markersize=12)
     plt.savefig(cwd+'/foo.png')
     mlflow.log_metric("mutiplication",c)
     mlflow.sklearn.log_model(c, "model")
