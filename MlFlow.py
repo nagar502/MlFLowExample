@@ -14,4 +14,4 @@ if __name__ == "__main__":
     with open(cwd+'/spam.txt', 'w') as f:
         f.write("Fan of Python")
     mlflow.log_metric("mutiplication",c)
-    mlflow.sklearn.log_model(c, "model")
+    mlflow.log_artifact("file", cwd+'/spam.txt')
