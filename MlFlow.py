@@ -15,4 +15,4 @@ if __name__ == "__main__":
     with open(cwd+'/mlflowfile.txt', 'w') as f:
         f.write("Fan of Python")
     mlflow.log_metric("mutiplication",c)
-    mlflow.log_artifact("file", cwd+'/mlflowfile.txt')
+    mlflow.log_artifact(cwd+'/mlflowfile.txt')
