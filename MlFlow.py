@@ -11,6 +11,7 @@ if __name__ == "__main__":
     c=a*b
     print("Multiplication :"+str(c))
     cwd = os.getcwd()    
+    print(cwd)
     with open(cwd+'/mlflowfile.txt', 'w') as f:
         f.write("Fan of Python")
     mlflow.log_metric("mutiplication",c)
