@@ -1,6 +1,6 @@
 name: tutorial
 channels:
-- conda-forge
+- default
 dependencies:
   - pip:
     - mlflow
