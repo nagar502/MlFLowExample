@@ -1,6 +1,6 @@
 name: tutorial
 channels:
-- default
+  - defaults
 dependencies:
   - pip:
     - mlflow
