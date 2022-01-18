@@ -6,7 +6,7 @@ import mlflow.sklearn
 if __name__ == "__main__":
     a=int(sys.argv[2])
     mlflow.log_param("val1",a)
-    b=int(sys.argv[3])
+    b=int(sys.argv[4])
     mlflow.log_param("val2",b)
     c=a*b
     print("Multiplication :"+str(c))
