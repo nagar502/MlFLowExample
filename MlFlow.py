@@ -4,7 +4,7 @@ import sys
 import mlflow.sklearn
 
 if __name__ == "__main__":
-    a=float(sys.argv[1])
+    a=float(sys.argv[2])
     mlflow.log_param("val1",a)
     b=int(sys.argv[2])
     mlflow.log_param("val2",b)
