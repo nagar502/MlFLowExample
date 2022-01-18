@@ -4,9 +4,9 @@ import sys
 import mlflow.sklearn
 
 if __name__ == "__main__":
-    a=float(sys.argv[2])
+    a=int(sys.argv[2])
     mlflow.log_param("val1",a)
-    b=int(sys.argv[2])
+    b=int(sys.argv[3])
     mlflow.log_param("val2",b)
     c=a*b
     print("Multiplication :"+str(c))
